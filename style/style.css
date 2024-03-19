@@ -81,6 +81,11 @@ ul {
     border-radius: 4px;
     margin-left: 35px;
     margin-top: 10px;
+    cursor: pointer;
+
+}
+.button1:hover {
+    opacity: 0.9;
 }
 .button2 {
     background-color: #01996D;
@@ -91,7 +96,10 @@ ul {
     font-size: 20px;
     border-radius: 4px;
     margin-top: 38px;
-    
+    cursor: pointer;
+}
+.button2:hover {
+    opacity: 0.9;
 }
 /* How it works */
 .works_flex {
@@ -131,10 +139,12 @@ ul {
 .item2 {
     position: relative;
     margin-top: 440px;
+    margin-bottom: 27px;
 }
 .item3 {
     position: relative;
     margin-top: 210px;
+    
 }
 .number-p {
     color: #01996D;
@@ -161,4 +171,56 @@ ul {
 }
 .item-img {
     border-radius: 20px;
+    width: 100%;
+}
+/* video */
+.container2 {
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.video {
+    background-color: #245852;
+    padding: 229px 0 177px;
+}
+.video__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.video-h2 {
+    color: #ffffff;
+    font-family: 'Georgia', sans-serif;
+    font-size: 50px;
+    max-width: 550px;
+    margin-top: 82px;
+    line-height: 1.6em;
+    margin-bottom: 35px;
+}
+.video-h3 {
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+a .video-img:hover {
+    opacity: 0.8;
+}
+.video-img {
+    width: 100%;
+    
+}
+.button3 {
+    background-color: #01996D;
+    color: #fff;
+    border: none;
+    width: 240px;
+    height: 65px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+.button3:hover {
+    opacity: 0.9;
 }
