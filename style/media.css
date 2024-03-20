@@ -47,6 +47,17 @@
         display: block;
         margin: 0 auto;
     }
+    .product__flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product__left {
+        padding-left: 20px;
+        margin-bottom: 100px;
+    }
+    .photo {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 900px) {
     .menu {
@@ -66,6 +77,19 @@
     .video-h2 {
         font-size: 40px;
     }
+    .card {
+        top: 250px;
+        left: 0;
+    }
+    .product__flex {
+        padding: 20px 0 20px;
+    }
+    .product_h2 {
+        font-size: 35px; 
+    }
+    .product__right {
+        margin: 0;
+    }
 }
 @media screen and (max-width: 500px) {
     ul {
@@ -83,5 +107,16 @@
     }
     .item-img {
         width: 100%;
+    }
+    .card {
+        
+        top: 350px;
+    }
+    .product-p {
+        margin-top: 380px;
+    }
+    .product__left {
+        padding: 0;
+        
     }
 }
